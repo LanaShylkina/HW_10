@@ -1,0 +1,126 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd c:/git
+    5  clear
+    6  pwd
+    7  clear
+    8  mkdir Lesson
+    9  ls
+   10  mkdir Lesson2
+   11  ls
+   12  mkdir "Lesson 3"
+   13  ls
+   14  touch empty.txt
+   15  ls
+   16  clear
+   17  vim empty.txt
+   18  cd c:/
+   19  cd c:/
+   20  ls
+   21  cd Git/
+   22  clear
+   23  vim empty.txt
+   24  nano empty.txt
+   25  cat empty.txt
+   26  cp empty.txt
+   27  pwd
+   28  cp /c/Git/empty.txt /c/
+   29  cp /c/Git/empty.txt /c/1
+   30  mv /c/Git/2empty.txt /c/1
+   31  mv /c/Git/2empty.txt /c/1
+   32  mv /c/1/2empty.txt /c/Git
+   33  cp /c/Git/empty.txt /c/Git/3empty.txt
+   34  rm 3empty.txt
+   35  rm empty.txt
+   36  ping
+   37  ping google.com
+   38  date
+   39  system_profiler
+   40  system_info
+   41  systeminfo
+   42  df_h
+   43  df -h
+   44  clear
+   45  ifconfig
+   46  ipconfig
+   47  clear
+   48  whoami
+   49  clear
+   50  touch test.txt
+   51  chmod 777 test.txt
+   52  clear
+   53   git config --global user.name "Lana Shylkina"
+   54  git config --global user.email lana.shylkina@gmail.com
+   55  git clone https://github.com/LanaShylkina/HW_10.git
+   56  git status
+   57  cd HW_10/
+   58  git status
+   59  touch new.txt
+   60  git status
+   61  git add new.txt
+   62  git status
+   63  git commit -m "New file created"
+   64  git status
+   65  git log
+   66  git branch
+   67  git checkout -b new_branch
+   68  git branch
+   69  git checkout main
+   70  git branch
+   71  git checkout new_branch
+   72  nano new.txt
+   73  git status
+   74  git commit -m "New modified"
+   75  git status
+   76  git branch
+   77  git checkout main
+   78  git merge new_branch
+   79  git branch
+   80  git status
+   81  git commit
+   82  git checkout new_branch
+   83  git merge main
+   84  git status
+   85  git commit
+   86  git checkout main
+   87  git status
+   88  git commit -m "New modified"
+   89  git add new.txt
+   90  git add new.txt
+   91  git status
+   92  git commit -m "New modified"
+   93  git push
+   94  git config --global user.name "Lana Shylkina"
+   95  git config --global user.email lana.shylkina@gmail.com
+   96  git clone https://github.com/LanaShylkina/HW_10.git
+   97  cd HW_10/
+   98  touch text_ignore.txt
+   99  git config --global user.name "Lana Shylkina"
+  100  git config --global user.email lana.shylkina@gmail.com
+  101  git clone https://github.com/LanaShylkina/HW_10.git
+  102  cd HW_10/
+  103  touch text_ignore.txt
+  104  nano .gitignore
+  105  git status
+  106  git add text_ignore.txt
+  107  git add
+  108  git commit -m "New version"
+  109  git add .gitignore
+  110  git commit -m "New version"
+  111  touch main_test.txt
+  112  git add main_test.txt
+  113  git commit -m "New file"
+  114  git checkout -b develop
+  115  git checkout develop
+  116  touch develop_test.txt
+  117  git add develop_test.txt
+  118  git commit -m "New file1"
+  119  nano develop_test.txt
+  120  git status
+  121  git add develop_test.txt
+  122  git commit -m "Change file"
+  123  git checkout main
+  124  git merge develop
+  125  git log
+  126  history > command_list.csv
